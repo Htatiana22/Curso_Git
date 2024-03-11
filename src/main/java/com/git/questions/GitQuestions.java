@@ -1,4 +1,11 @@
 package com.git.questions;
 
-public class GitQuestions {
+import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.Question;
+
+public class GitQuestions implements Question<Boolean> {
+    @Override
+    public Boolean answeredBy(Actor actor) {
+        return null;
+    }
 }
