@@ -1,4 +1,11 @@
 package com.git.tasks;
 
-public class Git2_Task {
+import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.Task;
+
+public class Git2_Task implements Task {
+    @Override
+    public <T extends Actor> void performAs(T actor) {
+        
+    }
 }
